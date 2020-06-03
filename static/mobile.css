@@ -1,0 +1,11 @@
+#secondSection {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 27px;
+    display: flex;
+    height: 1079px;
+    background-color: #474647;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

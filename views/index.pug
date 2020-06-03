@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+         ul
+                div#logo
+                    img(src="/static/img3.png")
+                li #[a(href="/") Home]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") About Us]
+                li #[a(href="/") Contact]
+                li #[a(href="/") Privacy Policy]
+
+    section#firstSection
+        div Welcome To Ask Dance Academy
+        div.small Eat Dance Sleep Repeat  
+
+    section#secondSection
+         h1 Our Mantra 
+         div.card
+            h3 Group Dance
+            div.image
+                img(src="/static/img7.png")
+                p  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium consequuntur eius vel voluptatibus quasi expedita. Culpa est optio sed sunt excepturi. Aut, deserunt repellat dolorem reprehenderit nihil ipsum optio recusandae laborum quo quos non? Obcaecati non tempore dicta reprehenderit omnis, dolor eveniet voluptas tenetur sint facere. Impedit corporis sit distinctio?
+         div.card
+            h3 Break Dance
+            div.image
+              img(src="/static/img3.png")
+              p  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium consequuntur eius vel voluptatibus quasi expedita.  Culpa est optio sed sunt excepturi. Aut, deserunt repellat dolorem reprehenderit nihil ipsum optio recusandae laborum quo quos non? Obcaecati non tempore dicta reprehenderit omnis, dolor eveniet voluptas tenetur sint facere. Impedit corporis sit distinctio?
+         div.card
+            h3 Jackson Form
+            div.image
+              img(src="/static/img5.png")
+              p  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium consequuntur eius vel voluptatibus quasi expedita. Culpa est optio sed sunt excepturi. Aut, deserunt repellat dolorem reprehenderit nihil ipsum optio recusandae laborum quo quos non? Obcaecati non tempore dicta reprehenderit omnis, dolor eveniet voluptas tenetur sint facere. Impedit corporis sit distinctio?
+        
+
+    section#thirdSection
+         h1 Our Sponsors
+         div#sponsors 
+          img(src="/static/apple.png", class = "sp-image")
+          img(src="/static/microsoft.png", class = "sp-image")
+          img(src="/static/google.png", class = "sp-image")
+          img(src="/static/adobe.png", class = "sp-image")
+
+    footer#footer
+        div
+                        strong Copyright
+                        |  Ask Academy © 2019-2020 | All Rights Reserved.
+
+
+    
+    script
+      include ../static/index.js

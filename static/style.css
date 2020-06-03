@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+#logo img{
+    height:30px ;
+    width: 30px;
+}
+
+#navbar{
+    position:sticky;
+    top: 0px;
+    background-color: #ff0000;
+    padding: 16px 4px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    font-family: 'Piedra', cursive;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 11px;
+    margin: 50px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+
+#firstSection{
+    font-family: cursive;
+    font-size: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    color: white;
+    background-color: red;
+    padding-bottom: 40px;
+}
+
+#firstSection div.small{
+    font-size: 40px;
+}
+
+
+#secondSection{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 27px;
+    height: 440px;
+background-color: #474647;
+}
+
+#secondSection h1{
+    font-size: 2.2rem;
+    color: white;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 300px;
+    background-color: whitesmoke;
+   
+}
+
+.card h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.image img{
+    height: 100px;
+    width: 100px;
+}
+
+#thirdSection{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 27px;
+    height: 250px;
+    background-color: #030d22;
+
+}
+
+#thirdSection h1{
+    font-size: 2.2rem;
+    color: white;
+}
+
+#sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+#sponsors img{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    
+    
+}
+
+#footer{
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
+    height: 100px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
