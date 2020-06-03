@@ -1,0 +1,11 @@
+git config --global user.name "ashutosh001s"
+git config --global user.email "ashutoshcharan123@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status           # just to see status not necessasory
+ssh-keygen -t rsa -b 4096 -C "ashutoshcharan123@gmail.com"
+
+
+
