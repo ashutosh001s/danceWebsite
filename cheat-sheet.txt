@@ -6,6 +6,17 @@ git add .
 git commit -m "Initial commit"
 git status           # just to see status not necessasory
 ssh-keygen -t rsa -b 4096 -C "ashutoshcharan123@gmail.com"
+ 
+                                 //                  Add file to git in 3 steps         //
+
+
+
+step1 git add .
+
+step2  git commit -m "Added cheatsheet"
+
+step3 git push origin master
+
 
 
 

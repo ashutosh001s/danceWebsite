@@ -142,3 +142,60 @@ background-color: #474647;
     color:white;
     text-align: center;
 }
+
+/* responsive design  */
+
+@media only screen and (max-width:1322px){
+    #secondSection {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        padding-top: 27px;
+        height: 1061px;
+        background-color: #474647;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 95%; 
+        margin: 23px 22px;
+        height: 300px;
+        background-color: whitesmoke;
+    }
+    
+    #sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* overflow: scroll; */
+    }
+
+    #thirdSection {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        padding-top: 27px;
+        height: 750px;
+        background-color: #030d22;
+    }
+
+    #firstSection {
+        font-family: cursive;
+        font-size: 42px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: center / cover no-repeat url(/static/bg.jpg);
+        height: 425px;
+        color: white;
+        background-color: red;
+        padding-bottom: 40px;
+    }
+
+}
